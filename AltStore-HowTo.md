@@ -10,6 +10,11 @@ iOS安装应用程序是需要苹果签名的。企业级开发者账号等可�
 * 电脑端：Windows 10+ 或者 MacOS 10.14.4+
 
 ## 准备工作
+### 创建新的Apple ID
+很多人的苹果Apple ID已经绑定了大量的信息，包括支付，登陆，浏览等信息。所以，为了安全起见，在你打算使用 AltStore 之前，强烈建议你重新创建一个新的Apple ID，创建是完全免费的，创建过程也是非常简单的。</br>
+创建帮助文档地址：https://support.apple.com/zh-cn/HT204316 </br>
+地址里的帮助文档，已经非常详细了。这里不多做介绍。注意，创建的过程中，绝对不需要绑定任何支付信息等，也建议使用一个新的密码。</br>
+
 ### 安装最新版的 iTunes
 打开网站 [https://www.apple.com.cn/itunes](https://www.apple.com.cn/itunes) ，点击如图所示的「Windows」，点击蓝色的「立即下载适用于 Windows 的 iTunes(64位)」开始下载。注意，千万不要点击「从 Microsoft Store 下载最新版本」，否则后面安装和使用将遇到很多异常。</br>
 
@@ -37,11 +42,6 @@ iOS安装应用程序是需要苹果签名的。企业级开发者账号等可�
 <span><div style="text-align: center;">
 ![iCloud2](img/iCloud2.png)
 </div></span>
-
-### 创建新的Apple ID
-很多人手机的苹果Apple ID绑定大量的信息，包括支付信息，购买App信息。所以，为了安全起见，强烈建议你重新创建一个新的Apple ID，创建是完全免费的，创建过程也是非常简单的。</br>
-创建帮助文档地址：https://support.apple.com/zh-cn/HT204316 </br>
-地址里的帮助文档，已经非常详细了。这里不多做介绍。注意，创建的过程中，绝对不需要绑定任何支付信息等，也建议使用一个新的密码。</br>
 
 ## 安装 AltStore
 ### 安装电脑端 AltServer
