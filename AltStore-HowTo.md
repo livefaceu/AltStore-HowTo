@@ -91,7 +91,7 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 此时我们必须得换一个思路，直接把需要安装的 AltStore 下载到本机电脑(其实可以放到局域网内任何一台电脑)，然后在电脑里搭建了一个简易 "Http Web Server" ，最后把 AltServer 下载地址指向这个我们更换过的地址即可。这个方案需要使用额外两个程序：HFS，AltServerPatcher, </br>
 </br>
 我们先安装 HFS。HFS 项目地址：https://sourceforge.net/projects/hfs 。</br>
-这里我们已经提前给你下载准备好了。直接点击目录下的 "hfs.exe"，运行如下：</br>
+这里我们已经提前给你下载准备好了，存放于「InstallStuff/hfs2.3k.zip」。解压hfs2.3k.zip，直接点击解压后的 "hfs.exe"，运行如下：</br>
 
 <span><div style="text-align: center;">
 ![Hfs1.png](img/Hfs1.png)
@@ -108,7 +108,7 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 
 你也将获得类似如下一个地址: http://YOUR_IP/altstore.ipa 。因为我的局域网地址是 192.168.1.125 ，所以，最后实际地址为 http://192.168.1.125/altstore.ipa 。请观察上图里的地址栏。</br>
 </br>
-接下来就要给 AltServer 打补丁，让 altstore.ipa 的下载地址实际指向刚才我们在 HFS 上提供的局域网地址。我们需要再安装 AltServerPatcher 。AltServerPatcher 的项目地址：[AltServer Patcher - Patch AltServer to Sideload Any IPA](https://www.reddit.com/r/jailbreak/comments/f1j55e/update_altserver_patcher_patch_altserver_to/) 。这里我们已经提前给你下载准备好了。执行 AltServerPatcher 目录下的 AltServerPatcher (必须以管理员身份运行)。</br>
+接下来就要给 AltServer 打补丁，让 altstore.ipa 的下载地址实际指向刚才我们在 HFS 上提供的局域网地址。我们需要再安装 AltServerPatcher 。AltServerPatcher 的项目地址：[AltServer Patcher - Patch AltServer to Sideload Any IPA](https://www.reddit.com/r/jailbreak/comments/f1j55e/update_altserver_patcher_patch_altserver_to/) 。这里我们已经提前给你下载准备好了，存放于「InstallStuff/AltServerPatcher.zip」。解压AltServerPatcher.zip，执行 AltServerPatcher 目录下的 AltServerPatcher (必须以管理员身份运行)。</br>
 
 <span><div style="text-align: center;">
 ![AltServerPatcher1.png](img/AltServerPatcher1.png)
