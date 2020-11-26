@@ -78,13 +78,20 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 ![AltServerRun2](img/AltServerRun2.png)
 </div></span>
 
-到此为止，AltServer 已经安装成功，理论上可以安装 AltStore 了。但是我们不得不面对略显悲哀的情况，尝试安装 AltStore 会可能会提示：</br>
+到此为止，AltServer 已经安装成功，理论上可以安装 AltStore 了。如果你生活在"正常上网"的环境，请跳到后面直接看 "安装手机端 AltStore" 。但是如果肉身还在大陆的话，建议你还是正常往下看。</br>
+</br>
+当我们尝试安装 AltStore 会可能会提示：</br>
 ```
 (SSL Error: WINHTTP_CALLBACK_STATUS_FLAG_CERT_REV_FAILED failed to check revocation status.)
 ```
-如果你生活在正常上网的环境，或者熟悉科学上网...请跳过下面这部分，直接看"安装手机端 AltStore"。但是如果肉身还在大陆的话，建议你还是正常往下看。</br>
+产生这个提示的原因：AltStore 是通过 AltServer 程序内部去下载然后安装的。AltStore 这个软件是美国小哥写的，安装文件放在国外，而我们生活在大陆...你懂的，很多国外网站莫名其妙要不访问不了，要不就访问不正常。</br>
 </br>
-这个提示产生的原因：AltStore 是通过 AltServer 程序内部去下载然后安装的。AltStore 这个软件是美国小哥写的，安装文件放在国外，而我们生活在大陆...你懂的，很多国外网站莫名其妙要不访问不了，要不就访问不正常。所以我们必须得换一个思路，直接把需要安装的 AltStore 下载到本机电脑(其实可以放到局域网内任何一台电脑)，然后在电脑里搭建了一个简易 "Http Web Server" ，最后把 AltServer 下载地址指向这个我们更换过的地址即可。这个方案需要使用额外两个程序：HFS，AltServerPatcher, </br>
+如果你熟悉科学上网，那么全局模式挂VPN，也能解决，然后可以愉快的跳到后面直接看 "安装手机端 AltStore" 。那如果你不会呢，只能接着往下看。</br>
+</br>
+此时我们必须得换一个思路，直接把需要安装的 AltStore 下载到本机电脑(其实可以放到局域网内任何一台电脑)，然后在电脑里搭建了一个简易 "Http Web Server" ，最后把 AltServer 下载地址指向这个我们更换过的地址即可。这个方案需要使用额外两个程序：HFS，AltServerPatcher, </br>
+
+
+
 </br>
 我们先安装 HFS。HFS 项目地址：[https://sourceforge.net/projects/hfs](https://sourceforge.net)。</br>
 这里我们已经提前给你下载准备好了。直接点击目录下的 "hfs.exe"，运行如下：</br>
@@ -214,7 +221,7 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 ![InstallApp3](img/InstallApp3.png)
 </div></span>
 
-用户密码输入正确后，AltStore就会自动安装复制过来的 ipa 文件。注意，安装 ipa 过程需要电脑端同时运行着 "iClond(需处于登陆状态) + iTunes + AltServer", 并与 iPhone 处于同一个 Wi-Fi 下，要不然会报错并无法完成安装。下图红色框里显示的是安装进度条。</br>
+用户密码输入正确后，AltStore就会自动安装复制过来的 ipa 文件。注意，安装 ipa 过程需要电脑端同时运行着 "iClond(需处于登陆状态) + iTunes + AltServer"，并与 iPhone 处于同一个 Wi-Fi 下，要不然会报错并无法完成安装。下图红色框里显示的是安装进度条。</br>
 
 <span><div style="text-align: center;">
 ![InstallApp4](img/InstallApp4.png)
