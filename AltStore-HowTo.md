@@ -93,7 +93,7 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 
 
 </br>
-我们先安装 HFS。HFS 项目地址：[https://sourceforge.net/projects/hfs](https://sourceforge.net)。</br>
+我们先安装 HFS。HFS 项目地址：https://sourceforge.net/projects/hfs 。</br>
 这里我们已经提前给你下载准备好了。直接点击目录下的 "hfs.exe"，运行如下：</br>
 
 <span><div style="text-align: center;">
