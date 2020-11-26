@@ -89,11 +89,8 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 如果你熟悉科学上网，那么全局模式挂VPN，也能解决，然后可以愉快的跳到后面直接看 "安装手机端 AltStore" 。那如果你不会呢，只能接着往下看。</br>
 </br>
 此时我们必须得换一个思路，直接把需要安装的 AltStore 下载到本机电脑(其实可以放到局域网内任何一台电脑)，然后在电脑里搭建了一个简易 "Http Web Server" ，最后把 AltServer 下载地址指向这个我们更换过的地址即可。这个方案需要使用额外两个程序：HFS，AltServerPatcher, </br>
-
-
-
 </br>
-我们先安装 HFS。HFS 项目地址：[https://sourceforge.net/projects/hfs](https://sourceforge.net)。</br>
+我们先安装 HFS。HFS 项目地址: [https://sourceforge.net/projects/hfs](https://sourceforge.net/projects/hfs) 。</br>
 这里我们已经提前给你下载准备好了。直接点击目录下的 "hfs.exe"，运行如下：</br>
 
 <span><div style="text-align: center;">
