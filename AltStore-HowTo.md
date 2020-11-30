@@ -1,5 +1,19 @@
 # 基于AltStore的自签教程
 
+本文出处: https://github.com/livefaceu/AltStore-HowTo/blob/main/AltStore-HowTo.md
+
+## 目录
+
+- [背景](#背景)
+- [最低要求](#最低要求)
+- [准备工作](#准备工作)
+- [安装AltStore](#安装AltStore)
+- [安装您的App](#安装您的App)
+- [如何续期](#如何续期)
+- [写在最后](#写在最后)
+- [参考资料](#参考资料)
+
+## 背景
 iOS安装应用程序是需要苹果签名的。企业级开发者账号等可以通过付费(1000+)，才拥有发布App到苹果商店的权限。但是，如果类似模拟游戏，插件等形式的App，因为苹果政策不允许，是拒绝让它们发布到苹果商店的，甚至对应App还可能被封掉，导致安装上的App也无法使用。苹果的严格政策，对于希望安装自己的App的普通用户非常不友好。不幸中的万幸，苹果提供了一个免费的苹果开发者账号，可惜安装的App有效期只有7天。于是AltStore呼之欲出，在App快过期的时候自动帮你重新签名，让用户在几乎无感知的情况下，享受无限期的App使用权。</br>
 </br>
 本文正是非越狱环境下，基于 AltStore 的自签(用户自己签名App)教程。</br>
@@ -43,7 +57,7 @@ iOS安装应用程序是需要苹果签名的。企业级开发者账号等可�
 ![iCloud2](img/iCloud2.png)
 </div></span>
 
-## 安装 AltStore
+## 安装AltStore
 ### 安装电脑端 AltServer
 AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根据您的电脑类型下载对应的版本。当前假设你的电脑是 Windows 。</br>
 打开 AltStore 官方网站 [https://altstore.io](https://altstore.io) ，点击网站主页的「Windows」开始下载 AltServer 的安装包。</br>
@@ -72,7 +86,7 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 ![AltServerRun1](img/AltServerRun1.png)
 </div></span>
 
-启动完成后，AltServer 会显示在系统通知托盘中，如图：</br>
+启动完成后，AltServer 会显示在系统通知托盘中，并保证"Automatically Launch at Startup"(开机启动)被选上。</br>
 
 <span><div style="text-align: center;">
 ![AltServerRun2](img/AltServerRun2.png)
@@ -139,7 +153,10 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 </div></span>
 
 </br>
-补充一下：如果你希望 AltServer 恢复原来的地址，点击下图的 「Restore」恢复按钮。不过只是希望在手机上安装你的App，不恢复并不影响后续操作。</br>
+补充一下：</br>
+注意点1：如果 AltServer 打过补丁，没事不要随便升级 AltServer，如果你闲得蛋疼真的想升级它，需要重新打一次补丁。</br>
+</br>
+注意点2：如果你希望 AltServer 恢复原来的地址，点击下图的 「Restore」恢复按钮。不过只是希望在手机上安装你的App，不恢复并不影响后续操作。</br>
 
 <span><div style="text-align: center;">
 ![AltServerPatcher7.png](img/AltServerPatcher7.png)
@@ -236,25 +253,24 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 ![InstallApp6](img/InstallApp6.png)
 </div></span>
 
-！！！最后，特别需要声明的是！！！</br>
-</br>
-如何续期：</br>
+## 如何续期
 每个自签的 ipa 是只有 7 天有效期的，如果需要续期，需要电脑端同时运行着 "iClond(需处于登陆状态) + iTunes + AltServer"， 并与 iPhone 处于同一个 Wi-Fi 的环境下。理论上 AltStore 会自动帮你续签，但是为了保险起见，你最好还是每隔两三天打开 AltStore，手工点击 AltStore 中的「Refresh All」来续签全部自签应用。「Refresh All」是下图上面那个红色区域，点击它保证「Expires in」的天数(剩余有效天数)大于 0。</br>
 
 <span><div style="text-align: center;">
 ![InstallApp5](img/InstallApp5.png)
 </div></span>
 
-</br>忘记续期：</br>
+</br>
+但是如果你忘记续期了，你需要根据下列情况操作：</br>
 点击 App 会闪退，可能是你的 App 忘记了 7 天内续期。解决：先删除 App，按照上面步骤重新安装一次你的 App 即可。</br>
-点击 AltStore 也闪退，可能是 AltStore 本身也忘记了 7 天内续期。解决：先删除 AltStore，按照上面步骤再安装一次 AltStore，其余 App 也要重新安装一次。</br>
+点击 AltStore 闪退，可能是 AltStore 本身也忘记了 7 天内续期。解决：先删除手机上的 AltStore ，按照上面步骤再安装一次 AltStore，其余 App 也要重新安装一次。</br>
 
 ## 写在最后
 本次的应用自签教程就写到这里，如果你在操作过程中出现错误，不妨试试跟着教程多试几次，也可以进入网站 [https://altstore.io/faq](https://altstore.io/faq) 查看相关的问题说明。</br>
 提示：[https://altstore.io/faq] 网站是英文的，你可以通过网页的翻译功能翻译成中文，翻译后的内容阅读应该不成问题。
 
 ## 参考资料
-* [基于 AltStore 的越狱工具自签教程｜全网最详细](https://zhuanlan.zhihu.com/p/143936759)
-* [unc0ver自签工具——AltStore安装教程](https://www.bilibili.com/video/av88917820)
-* [用Altstore安装uncover给iPhone越狱，各种报错？最完整攻略助你越狱，无视掉签!](https://www.bilibili.com/video/BV1kV411C7b9)
-* [https://altstore.io/faq](https://altstore.io/faq)
+* 基于 AltStore 的越狱工具自签教程｜全网最详细: https://zhuanlan.zhihu.com/p/143936759
+* unc0ver自签工具——AltStore安装教程: https://www.bilibili.com/video/av88917820
+* 用Altstore安装uncover给iPhone越狱，各种报错？最完整攻略助你越狱，无视掉签!: https://www.bilibili.com/video/BV1kV411C7b9
+* altstore.io faq: https://altstore.io/faq
