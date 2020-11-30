@@ -9,7 +9,7 @@
 - [准备工作](#准备工作)
 - [安装AltStore](#安装AltStore)
 - [安装您的App](#安装您的App)
-- [如何续期](#如何续期)
+- [如何续签](#如何续签)
 - [写在最后](#写在最后)
 - [参考资料](#参考资料)
 
@@ -253,17 +253,17 @@ AltServer 是在电脑端执行的服务程序，支持 Windows 和 MacOS，根�
 ![InstallApp6](img/InstallApp6.png)
 </div></span>
 
-## 如何续期
-每个自签的 ipa 是只有 7 天有效期的，如果需要续期，需要电脑端同时运行着 "iClond(需处于登陆状态) + iTunes + AltServer"， 并与 iPhone 处于同一个 Wi-Fi 的环境下。理论上 AltStore 会自动帮你续签，但是为了保险起见，你最好还是每隔两三天打开 AltStore，手工点击 AltStore 中的「Refresh All」来续签全部自签应用。「Refresh All」是下图上面那个红色区域，点击它保证「Expires in」的天数(剩余有效天数)大于 0。</br>
+## 如何续签
+每个自签的 ipa 是只有 7 天有效期的，如果需要续签，需要电脑端同时运行着 "iClond(需处于登陆状态) + iTunes + AltServer"， 并与 iPhone 处于同一个 Wi-Fi 的环境下。理论上 AltStore 会自动帮你续签，但是为了保险起见，你最好还是每隔两三天打开 AltStore，手工点击 AltStore 中的「Refresh All」来续签全部自签应用。「Refresh All」是下图上面那个红色区域，点击它保证「Expires in」的天数(剩余有效天数)大于 0。</br>
 
 <span><div style="text-align: center;">
 ![InstallApp5](img/InstallApp5.png)
 </div></span>
 
 </br>
-但是如果你忘记续期了，你需要根据下列情况操作：</br>
-点击 App 会闪退，可能是你的 App 忘记了 7 天内续期。解决：先删除 App，按照上面步骤重新安装一次你的 App 即可。</br>
-点击 AltStore 闪退，可能是 AltStore 本身也忘记了 7 天内续期。解决：先删除手机上的 AltStore ，按照上面步骤再安装一次 AltStore，其余 App 也要重新安装一次。</br>
+但是如果你忘记续签了，你需要根据下列情况操作：</br>
+点击 App 会闪退，可能是你的 App 忘记了 7 天内续签。解决：先删除 App，按照上面步骤重新安装一次你的 App 即可。</br>
+点击 AltStore 闪退，可能是 AltStore 本身也忘记了 7 天内续签。解决：先删除手机上的 AltStore ，按照上面步骤再安装一次 AltStore，其余 App 也要重新安装一次。</br>
 
 ## 写在最后
 本次的应用自签教程就写到这里，如果你在操作过程中出现错误，不妨试试跟着教程多试几次，也可以进入网站 [https://altstore.io/faq](https://altstore.io/faq) 查看相关的问题说明。</br>
